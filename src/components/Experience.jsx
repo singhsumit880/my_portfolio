@@ -8,7 +8,7 @@ const Experience = () => {
       role: "Senior Quality Engineer",
       company: "Simply Vyapar Apps Private Limited",
       period: "Sept 2023 - Present",
-      logo: "/vyapar.png",
+      logo: `${import.meta.env.BASE_URL}vyapar.png`,
       description: "Leading verification activities and test automation.",
       highlights: [
         "Architected an end-to-end testing framework using Playwright and TypeScript, reducing test execution time by 60%.",
@@ -22,7 +22,7 @@ const Experience = () => {
       role: "Assistant System Engineer",
       company: "Tata Consultancy Services (TCS)",
       period: "Dec 2021 - Aug 2023",
-      logo: "/tcs.png",
+      logo: `${import.meta.env.BASE_URL}tcs.png`,
       description: "Delivering solid releases with UAT and regression testing.",
       highlights: [
         "Created various project specific valuable assets such as knowledge transfer documents, test plan, defect summary reports and lessons learnt documents, successfully delivering 7 releases involving UAT and regression testing.",
@@ -34,7 +34,7 @@ const Experience = () => {
       role: "Software Engineer (Trainee)",
       company: "CEDCOSS Technologies Private Limited",
       period: "Oct 2020 - Nov 2021",
-      logo: "/cedcoss.png",
+      logo: `${import.meta.env.BASE_URL}cedcoss.png`,
       description: "QA documentation, testing, and stakeholder reporting.",
       highlights: [
         "Authored over 1000 detailed test cases in Jira.",

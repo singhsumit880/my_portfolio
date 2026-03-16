@@ -36,7 +36,7 @@ const About = () => {
         <div className="about-content">
           <div className="about-image-container fade-in">
             <div className="about-image-wrapper">
-              <img src="/assets/profile.png" alt="Sumit" className="profile-image" loading="lazy" />
+              <img src={`${import.meta.env.BASE_URL}assets/profile.png`} alt="Sumit" className="profile-image" loading="lazy" />
               <div className="image-backdrop"></div>
             </div>
           </div>
